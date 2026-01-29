@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalin</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #1a1a1a; 
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header-top {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #c0392b; 
+            border-bottom: 2px solid #d4af37;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #d4af37;
+            margin: 40px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .section-box {
+            background-color: #2c2c2c;
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .stalin-img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 3px solid #d4af37;
+            border-radius: 4px;
+        }
+
+        .content-text {
+            flex: 1;
+        }
+
+        h2 {
+            color: #d4af37;
+            margin-top: 0;
+            font-size: 2rem;
+            border-left: 5px solid #c0392b;
+            padding-left: 15px;
+        }
+
+        .btn-navigation {
+            background-color: #c0392b;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px; 
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            margin-top: 15px;
+        }
+
+        .btn-navigation:hover {
+            background-color: #e74c3c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #333;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-top">Iosif Stalin</div>
+
+        <h1 class="main-title">La Unión Soviética</h1>
+
+        <div class="section-box">
+            <img src="https://cdn.britannica.com/50/221250-138-7BA5F519/who-was-Joseph-Stalin.jpg?w=800&h=450&c=crop" alt="Iosif Stalin" class="stalin-img">
+            <div class="content-text">
+                <h2>Biografía</h2>
+                <p>Iosif Stalin fue el líder de la Unión Soviética que transformó al país en una superpotencia industrial y militar. En esta sección se detalla su origen, ascenso y rol histórico.</p>
+                <button class="btn-navigation" onclick="location.href='biografia.html'">Biografía</button>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <img src="https://static.vecteezy.com/system/resources/previews/002/497/266/non_2x/russia-ex-country-flag-soviet-union-ussr-communist-red-army-symbol-icon-logo-free-vector.jpg" alt="Logros Stalin" class="stalin-img">
+            <div class="content-text">
+                <h2>Logros</h2>
+                <p>Bajo su mando se alcanzaron hitos como la industrialización acelerada y la victoria en la Gran Guerra Patria, marcando el destino de la Unión Soviética.</p>
+                <button class="btn-navigation" onclick="location.href='logros.html'">Logros</button>
+            </div>
+        </div>
+
+        <footer>Juver Quimis y Carlos Sánchez</footer>
+    </div>
+
+</body>
+</html>
